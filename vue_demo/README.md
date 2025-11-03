@@ -58,7 +58,7 @@ Overwrite `src/App.vue` with this component (reads `VITE_API_BASE` and shows wei
 ```vue
 <template>
   <div class="dashboard">
-    <h1>🍱AI營養辨識測試用即時監測儀表板</h1>
+    <h1>🍱AI IOT 測試用即時監測儀表板</h1>
     <h2>OPC UA 通訊暫存的重量與體積資料</h2>
 
     <div class="card-row">
