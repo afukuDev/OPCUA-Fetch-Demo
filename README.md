@@ -2,6 +2,7 @@
 **OPCUA-Fetch-Demo**, a demonstrates building a local OPC UA server that emits test random data, allowing developers to centrally access real-time sensor values for IoT and edge-device development. Easy to fetch from multiple programming languages.
 ___
 **Attention:** Please remind this is a short demo for establishing an OPCUA Server and API, it is a development and testing server. Do not use it in a production deployment.
+For more details, please read the [OPCUA Official Documents](https://reference.opcfoundation.org/).
 ___
 ## 1. Deployment
 Please pull this repo via the command below.
