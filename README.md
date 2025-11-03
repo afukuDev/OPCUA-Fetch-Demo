@@ -36,7 +36,7 @@ pip install asyncua Flask flask-cors numpy
 ___
 ### 3. Download Ua Expert and Start the OPCUA Server.
 #### 1. Download UAExpert from [UAExpert](https://www.google.com/aclk?sa=L&pf=1&ai=DChsSEwjT6KTz9tSQAxVjB3sHHVokIk0YACICCAEQABoCdG0&co=1&ase=2&gclid=Cj0KCQjwgpzIBhCOARIsABZm7vF2EIE6AvhkLEsDdAT4hXCe4V1nA7geWVbjVWuABvCH37II1A2IbyMaAlZfEALw_wcB&cid=CAASlwHkaJ4XMIRgKhW5x06RDzBjNbo-28aLS_l1ZNzreIz2r6pJZUa66Qumq-mvj_rj_0hAF53HUfpiDidabnzwOg3hbxAlw_MuCjv9kgXWgGx8FCJdhb_UPI_BeppCN-3HY99anu3D7uzeCL5-aVNYi3S8ODTucsltdKWdfIfdyLqwlIEBXybZ2DoHm390Jr6hVz3vpysK9VSj&cce=2&category=acrcp_v1_32&sig=AOD64_3tp-rwsKD5aaoRkgGdVhrU9wxMsw&q&nis=4&adurl=https://www.unified-automation.com/products/development-tools/uaexpert.html?gad_source%3D1%26gad_campaignid%3D19807579087%26gbraid%3D0AAAAADrhzLpQBI19xGV9JwWjaKlINDryl%26gclid%3DCj0KCQjwgpzIBhCOARIsABZm7vF2EIE6AvhkLEsDdAT4hXCe4V1nA7geWVbjVWuABvCH37II1A2IbyMaAlZfEALw_wcB&ved=2ahUKEwja7Z7z9tSQAxW-e_UHHddhC5MQ0Qx6BAgMEAE)
-![image](https://hackmd.io/_uploads/rkrBQ9rJWe.png)
+![image](https://github.com/afukuDev/OPCUA-Fetch-Demo/blob/main/img/UAEXPERT.png)
 
 #### 2. Start UP the Server.
 ``` CMD
@@ -48,19 +48,19 @@ ___
 #### 1. Server startup.
 Starting up the OPCUA Server and flask_api by pressing the "Start" button.
 
-![image](https://hackmd.io/_uploads/S1PCWqH1be.png)
+![image](https://github.com/afukuDev/OPCUA-Fetch-Demo/blob/main/img/SERVER_DEMO.png)
 
 #### 2. UAExpert Settings.
 Open UAExpert and select the server from "Local".
-![image](https://hackmd.io/_uploads/Syb4B5Sy-l.png)
+![image](https://github.com/afukuDev/OPCUA-Fetch-Demo/blob/main/img/ADD_SERVER.png)
 Select the Server.
-![image](https://hackmd.io/_uploads/HJEj8qrJZx.png)
+![image](https://github.com/afukuDev/OPCUA-Fetch-Demo/blob/main/img/ADD_SERVER_2.png)
 Press the connect to monitoring.
-![image](https://hackmd.io/_uploads/H1SfDcrJZx.png)
+![image](https://github.com/afukuDev/OPCUA-Fetch-Demo/blob/main/img/UA_Motoring.png)
 
 ### 3. Monitor the Data.
 Select the object to see the live data for OPCUA Server.
-![image](https://hackmd.io/_uploads/ryGSd5rJWl.png)
+![image](https://github.com/afukuDev/OPCUA-Fetch-Demo/blob/main/img/UA_DATA.png)
 
 ### 3. Third Party Program/APP Connection Example.
 >**Note:** Currently we on working on establishing new third party app examples. New program example will be available soon.
