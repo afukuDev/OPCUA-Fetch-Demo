@@ -154,6 +154,7 @@ h2 { margin-top: 0.1rem; margin-bottom: 1rem; font-weight: 400; color: #666; }
   padding: 1.25rem 1.5rem;
   width: 220px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  color: #000
 }
 
 .card h2 {
