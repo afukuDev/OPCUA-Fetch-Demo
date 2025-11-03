@@ -231,28 +231,3 @@ serve -s dist -l 3000
 
 For production use Nginx/Caddy + HTTPS.
 
----
-
-## Troubleshooting
-
-- UI shows `-` or `NaN`: check `.env` `VITE_API_BASE` and restart dev server.
-- CORS errors: Flask uses `flask_cors.CORS(app)`. If needed, use `CORS(app, resources={r"/*": {"origins": "*"}})`.
-- Dev server unreachable: start with `--host 0.0.0.0`.
-- Slow API: Flask→OPC UA per-request connect/disconnect can be slow; consider a background OPC UA poller (cache) or the `OpcUaPusher` pattern.
-
----
-
-## Optional improvements I can help with
-
-1. Add a background OPC UA poller in Flask (cache results once per second). This reduces latency.
-2. Generate `package.json` + `vite.config.js` example for your setup.
-3. Provide an Nginx config for serving the built UI and proxying the Flask API.
-4. Make a production-ready system service (systemd/Windows service) starter script.
-
-Tell me which you want and I will prepare it.
-"""
-doc = content
-# create the document via canmore (fallback in case direct file write not allowed)
-doc_path = "/mnt/data/vue_opcua_setup.md"
-with open(doc_path, "w
-
